@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.marwazaida220230577.ViewReportsController"
+      spacing="20" alignment="CENTER" style="-fx-padding: 30; -fx-background-color: #F0F0F0;">
+
+    <Label fx:id="labelTotalDonations" text="Total Donations: " style="-fx-font-size: 18px;" />
+    <Label fx:id="labelTotalAmount" text="Total Amount: " style="-fx-font-size: 18px;" />
+
+
+    <Button text="Back to " onAction="#handleBack"/>
+
+</VBox>

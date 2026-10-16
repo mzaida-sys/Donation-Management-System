@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane prefHeight="500" prefWidth="800" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.marwazaida220230577.ViewFamilies2Controller">
+
+    <top>
+        <Label style="-fx-font-size: 22px; -fx-font-weight: bold;" text="All Families" textFill="#73b2bc" BorderPane.alignment="CENTER" />
+    </top>
+
+    <center>
+        <TableView fx:id="familyTable" prefHeight="350">
+            <columns>
+                <TableColumn fx:id="nameCol" prefWidth="120" text="Name" />
+                <TableColumn fx:id="membersCol" prefWidth="80" text="Members" />
+                <TableColumn fx:id="addressCol" prefWidth="150" text="Address" />
+                <TableColumn fx:id="phoneCol" prefWidth="120" text="Phone" />
+                <TableColumn fx:id="statusCol" prefWidth="100" text="Status" />
+                <TableColumn fx:id="notesCol" prefWidth="150" text="Notes" />
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" spacing="10" style="-fx-padding: 10;">
+            <Button onAction="#handleBack" text="⬅ Back" textFill="#4d0e4d">
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin></Button>
+        </HBox>
+    </bottom>
+</BorderPane>

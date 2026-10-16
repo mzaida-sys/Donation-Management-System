@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="460.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.marwazaida220230577.AdminController">
+
+    <VBox alignment="CENTER" layoutX="200.0" layoutY="176.0" spacing="15">
+        <Label style="-fx-font-size: 22px; -fx-font-weight: bold;" text="Admin Dashboard" textFill="#2599bf" />
+
+        <Button onAction="#handleAddEmployee" prefWidth="200" text="Add New Employee" />
+        <Button onAction="#handleViewEmployees" prefWidth="200" text="View All Employees" />
+        <Button onAction="#handleViewFamilies" prefWidth="200" text="View Families" /> <!-- الزر الجديد -->
+        <Button onAction="#handleViewReports" prefWidth="200" text="View Donation Reports" />
+        <Button onAction="#handleLogout" prefWidth="200" text="Logout" textFill="#14718d" />
+
+    </VBox>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="213.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@image/image1.png" />
+        </image>
+    </ImageView>
+</AnchorPane>

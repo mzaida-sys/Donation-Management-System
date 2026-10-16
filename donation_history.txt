@@ -1,0 +1,2 @@
+Date | Family | Type | Amount
+01-01-2025 | عائلة 1 | نقدي | 100

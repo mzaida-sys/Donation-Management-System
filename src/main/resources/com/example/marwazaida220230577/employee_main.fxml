@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="462.0" prefWidth="511.0" spacing="15" style="-fx-padding: 30;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.marwazaida220230577.EmployeeController">
+    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@image/imag2.png" />
+        </image>
+    </ImageView>
+
+    <Label style="-fx-font-size: 22px; -fx-font-weight: bold;" text="Employee Dashboard" textFill="#51949a" />
+
+    <Button onAction="#handleAddFamily" prefWidth="200" text="➕ Add Family" />
+    <Button onAction="#handleEditFamily" prefWidth="200" text="📝 Edit Family" />
+    <Button onAction="#handleViewFamilies2" prefWidth="200" text="👁 View Families">
+        <VBox.margin>
+            <Insets />
+        </VBox.margin></Button>
+    <Button onAction="#handleLogout" prefWidth="200" text="⬅ Logout" textFill="#024968">
+        <VBox.margin>
+            <Insets />
+        </VBox.margin></Button>
+
+</VBox>

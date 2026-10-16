@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.marwazaida220230577.AdminViewFamiliesController" prefWidth="800" prefHeight="500">
+
+    <top>
+        <Label text="Families List (Admin View)" style="-fx-font-size: 20px; -fx-padding: 10;" BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <TableView fx:id="familyTable" prefHeight="400" prefWidth="700">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Name" prefWidth="120"/>
+                <TableColumn fx:id="membersColumn" text="Members" prefWidth="100"/>
+                <TableColumn fx:id="addressColumn" text="Address" prefWidth="120"/>
+                <TableColumn fx:id="phoneColumn" text="Phone" prefWidth="120"/>
+                <TableColumn fx:id="statusColumn" text="Status" prefWidth="100"/>
+                <TableColumn fx:id="notesColumn" text="Notes" prefWidth="150"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" spacing="10" style="-fx-padding: 10;" BorderPane.alignment="CENTER">
+            <Button text="Back " onAction="#handleBack"/>
+        </HBox>
+    </bottom>
+</BorderPane>
