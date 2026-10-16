@@ -31,9 +31,11 @@ A comprehensive JavaFX desktop application designed to streamline charity operat
    ```bash
    git clone [https://github.com/mzaida-sys/Donation-Management-System.git](https://github.com/mzaida-sys/Donation-Management-System.git)
 
-   ## Application Demo
+## How to Run the Application
 
-[ Watch Full Application Demo Video](https://github.com/mzaida-sys/Donation-Management-System/releases/download/v1.0.0/Screen.Recording.2026-10-16.161837.mp4)
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/mzaida-sys/Donation-Management-System.git](https://github.com/mzaida-sys/Donation-Management-System.git)
 
 
    
